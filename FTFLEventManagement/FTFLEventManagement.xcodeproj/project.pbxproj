@@ -1,0 +1,449 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3ABB53C81AAAC3FB002022F3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ABB53C71AAAC3FB002022F3 /* main.m */; };
+		3ABB53CB1AAAC3FB002022F3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ABB53CA1AAAC3FB002022F3 /* AppDelegate.m */; };
+		3ABB53CE1AAAC3FB002022F3 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ABB53CD1AAAC3FB002022F3 /* MasterViewController.m */; };
+		3ABB53D11AAAC3FB002022F3 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ABB53D01AAAC3FB002022F3 /* DetailViewController.m */; };
+		3ABB53D41AAAC3FB002022F3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3ABB53D21AAAC3FB002022F3 /* Main.storyboard */; };
+		3ABB53D61AAAC3FB002022F3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3ABB53D51AAAC3FB002022F3 /* Images.xcassets */; };
+		3ABB53D91AAAC3FB002022F3 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3ABB53D71AAAC3FB002022F3 /* LaunchScreen.xib */; };
+		3ABB53E51AAAC3FB002022F3 /* FTFLEventManagementTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ABB53E41AAAC3FB002022F3 /* FTFLEventManagementTests.m */; };
+		3ABB53F01AAAC6DF002022F3 /* EventViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ABB53EF1AAAC6DF002022F3 /* EventViewController.m */; };
+		3ABB53F31AAAC746002022F3 /* EventTwoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ABB53F21AAAC746002022F3 /* EventTwoViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3ABB53DF1AAAC3FB002022F3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3ABB53BA1AAAC3FB002022F3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3ABB53C11AAAC3FB002022F3;
+			remoteInfo = FTFLEventManagement;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3ABB53C21AAAC3FB002022F3 /* FTFLEventManagement.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FTFLEventManagement.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3ABB53C61AAAC3FB002022F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3ABB53C71AAAC3FB002022F3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3ABB53C91AAAC3FB002022F3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3ABB53CA1AAAC3FB002022F3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3ABB53CC1AAAC3FB002022F3 /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
+		3ABB53CD1AAAC3FB002022F3 /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		3ABB53CF1AAAC3FB002022F3 /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		3ABB53D01AAAC3FB002022F3 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		3ABB53D31AAAC3FB002022F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3ABB53D51AAAC3FB002022F3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		3ABB53D81AAAC3FB002022F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		3ABB53DE1AAAC3FB002022F3 /* FTFLEventManagementTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FTFLEventManagementTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3ABB53E31AAAC3FB002022F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3ABB53E41AAAC3FB002022F3 /* FTFLEventManagementTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FTFLEventManagementTests.m; sourceTree = "<group>"; };
+		3ABB53EE1AAAC6DF002022F3 /* EventViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EventViewController.h; sourceTree = "<group>"; };
+		3ABB53EF1AAAC6DF002022F3 /* EventViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EventViewController.m; sourceTree = "<group>"; };
+		3ABB53F11AAAC746002022F3 /* EventTwoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EventTwoViewController.h; sourceTree = "<group>"; };
+		3ABB53F21AAAC746002022F3 /* EventTwoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EventTwoViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3ABB53BF1AAAC3FB002022F3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3ABB53DB1AAAC3FB002022F3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3ABB53B91AAAC3FB002022F3 = {
+			isa = PBXGroup;
+			children = (
+				3ABB53C41AAAC3FB002022F3 /* FTFLEventManagement */,
+				3ABB53E11AAAC3FB002022F3 /* FTFLEventManagementTests */,
+				3ABB53C31AAAC3FB002022F3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3ABB53C31AAAC3FB002022F3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3ABB53C21AAAC3FB002022F3 /* FTFLEventManagement.app */,
+				3ABB53DE1AAAC3FB002022F3 /* FTFLEventManagementTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3ABB53C41AAAC3FB002022F3 /* FTFLEventManagement */ = {
+			isa = PBXGroup;
+			children = (
+				3ABB53C91AAAC3FB002022F3 /* AppDelegate.h */,
+				3ABB53CA1AAAC3FB002022F3 /* AppDelegate.m */,
+				3ABB53CC1AAAC3FB002022F3 /* MasterViewController.h */,
+				3ABB53CD1AAAC3FB002022F3 /* MasterViewController.m */,
+				3ABB53CF1AAAC3FB002022F3 /* DetailViewController.h */,
+				3ABB53D01AAAC3FB002022F3 /* DetailViewController.m */,
+				3ABB53D21AAAC3FB002022F3 /* Main.storyboard */,
+				3ABB53D51AAAC3FB002022F3 /* Images.xcassets */,
+				3ABB53D71AAAC3FB002022F3 /* LaunchScreen.xib */,
+				3ABB53C51AAAC3FB002022F3 /* Supporting Files */,
+				3ABB53EE1AAAC6DF002022F3 /* EventViewController.h */,
+				3ABB53EF1AAAC6DF002022F3 /* EventViewController.m */,
+				3ABB53F11AAAC746002022F3 /* EventTwoViewController.h */,
+				3ABB53F21AAAC746002022F3 /* EventTwoViewController.m */,
+			);
+			path = FTFLEventManagement;
+			sourceTree = "<group>";
+		};
+		3ABB53C51AAAC3FB002022F3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3ABB53C61AAAC3FB002022F3 /* Info.plist */,
+				3ABB53C71AAAC3FB002022F3 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3ABB53E11AAAC3FB002022F3 /* FTFLEventManagementTests */ = {
+			isa = PBXGroup;
+			children = (
+				3ABB53E41AAAC3FB002022F3 /* FTFLEventManagementTests.m */,
+				3ABB53E21AAAC3FB002022F3 /* Supporting Files */,
+			);
+			path = FTFLEventManagementTests;
+			sourceTree = "<group>";
+		};
+		3ABB53E21AAAC3FB002022F3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3ABB53E31AAAC3FB002022F3 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3ABB53C11AAAC3FB002022F3 /* FTFLEventManagement */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3ABB53E81AAAC3FB002022F3 /* Build configuration list for PBXNativeTarget "FTFLEventManagement" */;
+			buildPhases = (
+				3ABB53BE1AAAC3FB002022F3 /* Sources */,
+				3ABB53BF1AAAC3FB002022F3 /* Frameworks */,
+				3ABB53C01AAAC3FB002022F3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FTFLEventManagement;
+			productName = FTFLEventManagement;
+			productReference = 3ABB53C21AAAC3FB002022F3 /* FTFLEventManagement.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3ABB53DD1AAAC3FB002022F3 /* FTFLEventManagementTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3ABB53EB1AAAC3FB002022F3 /* Build configuration list for PBXNativeTarget "FTFLEventManagementTests" */;
+			buildPhases = (
+				3ABB53DA1AAAC3FB002022F3 /* Sources */,
+				3ABB53DB1AAAC3FB002022F3 /* Frameworks */,
+				3ABB53DC1AAAC3FB002022F3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3ABB53E01AAAC3FB002022F3 /* PBXTargetDependency */,
+			);
+			name = FTFLEventManagementTests;
+			productName = FTFLEventManagementTests;
+			productReference = 3ABB53DE1AAAC3FB002022F3 /* FTFLEventManagementTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3ABB53BA1AAAC3FB002022F3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = LICT6;
+				TargetAttributes = {
+					3ABB53C11AAAC3FB002022F3 = {
+						CreatedOnToolsVersion = 6.3;
+					};
+					3ABB53DD1AAAC3FB002022F3 = {
+						CreatedOnToolsVersion = 6.3;
+						TestTargetID = 3ABB53C11AAAC3FB002022F3;
+					};
+				};
+			};
+			buildConfigurationList = 3ABB53BD1AAAC3FB002022F3 /* Build configuration list for PBXProject "FTFLEventManagement" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3ABB53B91AAAC3FB002022F3;
+			productRefGroup = 3ABB53C31AAAC3FB002022F3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3ABB53C11AAAC3FB002022F3 /* FTFLEventManagement */,
+				3ABB53DD1AAAC3FB002022F3 /* FTFLEventManagementTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3ABB53C01AAAC3FB002022F3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3ABB53D41AAAC3FB002022F3 /* Main.storyboard in Resources */,
+				3ABB53D91AAAC3FB002022F3 /* LaunchScreen.xib in Resources */,
+				3ABB53D61AAAC3FB002022F3 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3ABB53DC1AAAC3FB002022F3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3ABB53BE1AAAC3FB002022F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3ABB53CB1AAAC3FB002022F3 /* AppDelegate.m in Sources */,
+				3ABB53CE1AAAC3FB002022F3 /* MasterViewController.m in Sources */,
+				3ABB53F01AAAC6DF002022F3 /* EventViewController.m in Sources */,
+				3ABB53C81AAAC3FB002022F3 /* main.m in Sources */,
+				3ABB53F31AAAC746002022F3 /* EventTwoViewController.m in Sources */,
+				3ABB53D11AAAC3FB002022F3 /* DetailViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3ABB53DA1AAAC3FB002022F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3ABB53E51AAAC3FB002022F3 /* FTFLEventManagementTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3ABB53E01AAAC3FB002022F3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3ABB53C11AAAC3FB002022F3 /* FTFLEventManagement */;
+			targetProxy = 3ABB53DF1AAAC3FB002022F3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3ABB53D21AAAC3FB002022F3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3ABB53D31AAAC3FB002022F3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3ABB53D71AAAC3FB002022F3 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3ABB53D81AAAC3FB002022F3 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3ABB53E61AAAC3FB002022F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3ABB53E71AAAC3FB002022F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3ABB53E91AAAC3FB002022F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FTFLEventManagement/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3ABB53EA1AAAC3FB002022F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FTFLEventManagement/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		3ABB53EC1AAAC3FB002022F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = FTFLEventManagementTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FTFLEventManagement.app/FTFLEventManagement";
+			};
+			name = Debug;
+		};
+		3ABB53ED1AAAC3FB002022F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = FTFLEventManagementTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FTFLEventManagement.app/FTFLEventManagement";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3ABB53BD1AAAC3FB002022F3 /* Build configuration list for PBXProject "FTFLEventManagement" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3ABB53E61AAAC3FB002022F3 /* Debug */,
+				3ABB53E71AAAC3FB002022F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3ABB53E81AAAC3FB002022F3 /* Build configuration list for PBXNativeTarget "FTFLEventManagement" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3ABB53E91AAAC3FB002022F3 /* Debug */,
+				3ABB53EA1AAAC3FB002022F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3ABB53EB1AAAC3FB002022F3 /* Build configuration list for PBXNativeTarget "FTFLEventManagementTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3ABB53EC1AAAC3FB002022F3 /* Debug */,
+				3ABB53ED1AAAC3FB002022F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3ABB53BA1AAAC3FB002022F3 /* Project object */;
+}
